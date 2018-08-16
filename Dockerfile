@@ -1,4 +1,4 @@
-FROM node
+FROM node:10-stretch
 WORKDIR /app
 ADD . /app
 RUN npm install
